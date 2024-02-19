@@ -1,12 +1,12 @@
 package com.bootcamp.first;
 
 public class LoanResponse {
-	
+
 	int status;
-	
+
 	int amount;
-	
-	LoanResponse(int status, int amount){
+
+	LoanResponse(int status, int amount) {
 		this.status = status;
 		this.amount = amount;
 	}
@@ -31,7 +31,5 @@ public class LoanResponse {
 	public void setAmount(int amount) {
 		this.amount = amount;
 	}
-	
-	
 
 }
